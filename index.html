@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Preet More | Luxury CV</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      scroll-behavior: smooth;
+      background-color: #0e0e0e;
+      color: #f5f5f5;
+    }
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+    }
+  </style>
+</head>
+<body class="bg-black text-white">
+
+  <!-- Navbar -->
+  <header class="bg-[#1a1a1a] shadow-lg sticky top-0 z-50 border-b border-gold">
+    <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-3xl text-gold font-semibold tracking-widest">Preet More</h1>
+      <ul class="flex gap-6 text-sm font-medium text-gray-300">
+        <li><a href="#welcome" class="hover:text-gold transition">Welcome</a></li>
+        <li><a href="#about" class="hover:text-gold transition">About</a></li>
+        <li><a href="#achievements" class="hover:text-gold transition">Achievements</a></li>
+        <li><a href="#goals" class="hover:text-gold transition">Goals</a></li>
+        <li><a href="#personal" class="hover:text-gold transition">Personal</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Welcome Section -->
+  <section id="welcome" class="py-20 bg-[#0e0e0e] text-center">
+    <div class="container mx-auto px-4">
+      <h2 class="text-5xl font-bold text-gold mb-4">Welcome, I'm Preet More</h2>
+      <p class="text-gray-400 text-lg mb-8">Crafting elegant digital solutions with purpose and precision.</p>
+      <img src="e37d9dbc-4ea0-4325-a0e2-d1b92148a903.jpg" alt="Profile Photo" class="mx-auto w-44 h-44 rounded-full border-4 border-gold shadow-xl mb-6" />
+      <video controls class="mx-auto w-full max-w-md rounded-lg border-2 border-gold shadow">
+        <source src="videos/intro.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section id="about" class="py-20 bg-[#111111]">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl text-gold font-semibold mb-6">About Me</h2>
+      <div class="space-y-3 text-lg text-gray-300">
+        <p><strong>Name:</strong> Preet More</p>
+        <p><strong>Location:</strong> Dahanu, Maharashtra, India</p>
+        <p><strong>Education:</strong> BE in Electronics and Computer Science</p>
+        <p><strong>Languages:</strong> English, Hindi, Marathi</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements" class="py-20 bg-[#1a1a1a]">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl text-gold font-semibold mb-6">Achievements</h2>
+      <ul class="list-disc list-inside space-y-3 text-lg text-gray-300">
+        <li>🏆 Winner in cricket, 2024</li>
+        <li>🎓 Winner in mini project – Waste Segregation</li>
+        <li>🚀 Built a mini e-commerce site</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Goals -->
+  <section id="goals" class="py-20 bg-[#111111]">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl text-gold font-semibold mb-6">Future Goals</h2>
+      <p class="text-lg text-gray-300 leading-relaxed">
+        I aspire to become a full-stack web developer, contribute to open-source, build meaningful tech, and mentor new developers with passion and precision.
+      </p>
+    </div>
+  </section>
+
+  <!-- Personal Section -->
+  <section id="personal" class="py-20 bg-[#1a1a1a]">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl text-gold font-semibold mb-6">Personal Interests</h2>
+      <div class="text-lg text-gray-300 space-y-3">
+        <p><strong>Hobbies:</strong> Playing cricket, gaming</p>
+        <p><strong>Role Models:</strong> Virat Kohli, A.P.J. Abdul Kalam</p>
+        <p><strong>Favorite Books:</strong> “Atomic Habits”, “The Lean Startup”</p>
+        <p><strong>Websites I Love:</strong> Dev.to, Hashnode, Product Hunt</p>
+        <p><strong>Startups I Admire:</strong> Notion, Figma</p>
+        <p><strong>Volunteering:</strong> Teaching tech skills to underprivileged kids at NGOs</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#0d0d0d] border-t border-gold text-white py-6 text-center mt-8">
+    <p class="text-lg font-semibold text-gold">Made with ❤️ by Preet More | © 2025</p>
+    <p class="mt-2 text-sm text-gray-400">
+      <a href="https://github.com/yourusername" target="_blank" class="underline hover:text-gold">GitHub</a> |
+      <a href="https://linkedin.com/in/yourusername" target="_blank" class="underline hover:text-gold">LinkedIn</a>
+    </p>
+  </footer>
+
+  <!-- Tailwind Custom Theme -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            gold: '#D4AF37'
+          }
+        }
+      }
+    }
+  </script>
+</body>
+</html>
+
